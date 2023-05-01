@@ -9,7 +9,3 @@ openButton.addEventListener('click', () => {
 closeButton.addEventListener('click', () => {
   pageWindow.classList.remove('open');
 });
-
-
-
-https://cdn.jsdelivr.net/gh/khaled-hayek/bot_cdn/main/popup.js
