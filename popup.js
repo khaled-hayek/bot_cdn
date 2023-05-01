@@ -1,13 +1,9 @@
-// JavaScript code for the chat button functionality
-
-// Toggle the visibility of the popup when the chat button is clicked
+// Toggle the visibility of the iframe when the chat button is clicked
 document.getElementById("chatButton").addEventListener("click", function() {
-  var popup = document.getElementById("popup");
-  if (popup.style.display === "block") {
-    popup.style.display = "none";
+  var chatFrame = document.getElementById("chatFrame");
+  if (chatFrame.style.display === "block") {
+	chatFrame.style.display = "none";
   } else {
-    popup.style.display = "block";
+	chatFrame.style.display = "block";
   }
 });
-
-// Add more JavaScript code as needed

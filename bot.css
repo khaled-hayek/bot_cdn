@@ -1,12 +1,5 @@
-#chatButton {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      z-index: 9999;
-    }
-
-    /* Styling for the popup window */
-    #popup {
+    /* Styling for the iframe */
+    #chatFrame {
       position: fixed;
       bottom: 50px;
       right: 5px;
@@ -19,24 +12,17 @@
       z-index: 999;
     }
 
-    #close {
-      float: right;
-      cursor: pointer;
-    }
-
-    /* Styling for the container holding the popup and chat button */
-    #container {
-      position: relative;
+    /* Styling for the chat button */
+    #chatButton {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 9999;
     }
 
     /* Media query for mobile devices */
     @media (max-width: 768px) {
-      #chatButton {
-        bottom: 5px;
-        right: 20px;
-      }
-
-      #popup {
+      #chatFrame {
         bottom: 50px;
         right: 0;
         width: 100%;
